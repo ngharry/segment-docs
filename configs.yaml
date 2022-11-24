@@ -1,0 +1,36 @@
+preference:
+  defaultTheme: dark
+navbar:
+  logoPath: /assets/logo.svg
+  extraActions:
+    - text: Login
+      path: /login
+    - text: Feedback
+      path: /feedback
+homePage:
+  title: Test documentation
+  description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  sections:
+    - title: Learn about our features
+      # imagePath: ./assets/section1.png
+      subsections:
+        - title: Getting started
+          description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          path: /getting-started
+          # icon: ./assets/subsection1/icon.svg
+        - title: API Design
+          description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          path: /api
+        - title: Protocols
+          description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          path: /protocols
+        - title: Guides
+          description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          path: /guides
+        - title: Full API Reference
+          description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          path: /reference
+api:
+  entry: swagger.json
+copyright: Copyright © 2022 Network
+
